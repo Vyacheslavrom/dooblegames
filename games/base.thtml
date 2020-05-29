@@ -1,0 +1,16 @@
+<?php
+$arr = ['dooble_games'=>'dooblegames/dooble.jpg',
+'ogon_i_voda'=>'https://html5.gamedistribution.com/a55c9cc9c21e4fc683c8c6857f3d0c75/',
+'igra-ogon-i-voda-v-ledyanom-hrame' =>'https://html5.gamedistribution.com/f3a6e1ac0a77412289cbac47658b2b68/',
+'igra-ogon-i-voda-v-hrame-sveta' =>'https://html5.gamedistribution.com/383ad09b92c7446b9113cccc29630517/',
+'igra-devushki-ekvestrii-pokaz-mod' =>'https://g.vseigru.net/igra-devushki-ekvestrii-pokaz-mod.swf',
+'igra-barboskiny-pazly' =>'https://igrulez.net/gamesswf/igri-barboskiny/igra-barboskiny-pazly.swf',
+'igra-dlya-malchikov-minony' =>'https://igrulez.net/gamesswf/begalki/igra-minony-begat-i-sobirat-banany.swf',
+'igra-dlya-malchikov-bob-grabitel-2' =>'https://igrulez.net/gamesswf/igri-intellektualniye/igra-intellektualnaya-grabitel-bob.swf',
+'igra-vor-bob' =>'https://html5.gamedistribution.com/18d28481ea514f3c838f9a5a355fb0f7/',
+'igra-dlya-devochek-svidanie-na-dvoih' =>'https://igrulez.net/gamesswf/na-dvoih-dlya-devochek/igra-dlya-devochek-svidanie-na-dvoih.swf',
+'igra-devocka-i-pony' =>'https://html5.gamedistribution.com/41256814921f4eed8d5108598893a3fa/',
+'igra-beg-s-prepyatstviyami-po-gorodu' =>'https://html5.gamedistribution.com/f18f5725594e45e9b46b080a575524ae/'
+];
+
+?>

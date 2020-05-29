@@ -1,0 +1,17 @@
+
+
+    <a href="?game=dooble_games"><img class='my_icon' src="./im/game/dooble.jpg" border="2" /></a>
+    <a href="?game=ogon_i_voda"><img class='menu-v' src="./im/game/ogon.jpg" border="2" /></a>
+  	<a href="?game=igra-ogon-i-voda-v-ledyanom-hrame"><img class='menu-v' src="./im/game/igra-ogon-i-voda-v-ledyanom-hrame.jpg" border="2" /></a>
+  	<a href="?game=igra-ogon-i-voda-v-hrame-sveta"><img class='menu-v' src="./im/game/igra-ogon-i-voda-v-hrame-sveta.jpg" border="2" /></a>
+    <a href="?game=igra-devushki-ekvestrii-pokaz-mod"><img class='menu-v' src="./im/game/igra-devushki-ekvestrii-pokaz-mod.jpg" border="2" /></a>
+    <a href="?game=igra-barboskiny-pazly"><img class='menu-v' src="./im/game/igra-barboskiny-pazly.jpg" border="2" /></a>
+    <a href="?game=igra-dlya-malchikov-minony"><img class='menu-v' src="./im/game/igra-dlya-malchikov-minony.jpg" border="2" /></a>
+    <a href="?game=igra-dlya-malchikov-bob-grabitel-2"><img class='menu-v' src="./im/game/igra-dlya-malchikov-bob-grabitel-2.jpg" border="2" /></a>
+    <a href="?game=igra-vor-bob"><img class='menu-v' src="./im/game/igra-vor-bob.jpg" border="2" /></a>
+    <a href="?game=igra-dlya-devochek-svidanie-na-dvoih"><img class='menu-v' src="./im/game/igra-dlya-devochek-svidanie-na-dvoih.jpg" border="2" /></a>
+    <a href="?game=igra-devocka-i-pony"><img class='menu-v' src="./im/game/igra-devocka-i-pony.jpg" border="2" /></a>
+    <a href="?game=igra-beg-s-prepyatstviyami-po-gorodu"><img class='menu-v' src="./im/game/igra-beg-s-prepyatstviyami-po-gorodu.jpg" border="2" /></a>
+
+
+    <!--echo "<a href='page3.php?page=3'>Страница 3</a><br />";-->

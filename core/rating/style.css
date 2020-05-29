@@ -1,0 +1,39 @@
+body {
+    background-color:#EFF7FF;
+    padding:0px;
+    margin:0px;
+}
+
+table {
+    padding:0px;
+    margin:3px;
+}
+
+table tr {
+    padding:0px;
+    margin:0px;
+}
+
+table tr td {
+    padding:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border:1px solid #DFDFDF;
+    margin:0px;
+}
+
+.heading {
+    background-color:#C9E2FC;
+    padding:3px;
+    margin:3px;
+    margin-top:10px;
+}
+
+.content {
+    margin:3px;
+    margin-top:0px;
+}
+
+.center {
+    vertical-align:middle;
+}

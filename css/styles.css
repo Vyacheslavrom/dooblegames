@@ -1,0 +1,338 @@
+* {/*Отспуты для всех элементов по умолчанию нулевые*/
+      margin: 0;
+      padding: 0;
+}
+
+html, body { /*Высота страницы максимальная*/
+          height: 100%;
+
+}
+
+#block {
+  background-color: #ff0;
+  min-height: 100px;
+  min-width: 200px;
+  position: relative;
+  width: 400px;
+}
+#block_resize {
+  background-color: #000;
+  bottom: 0;
+  cursor: se-resize;
+  height: 12px;
+  margin-top: 9px;
+  position: absolute;
+  right: 0;
+  width: 12px;
+}
+
+.flame {
+font-size: 30px;
+padding: 20px 0 10px 20px;
+width: 350px;
+font-weight: bold;
+background: scroll 0% 0% rgb(0, 0, 0);
+color: rgb(50, 50, 50);
+text-shadow: -1px 2px rgb(255, 255, 0),
+2px -3px 3px rgb(255, 204, 0),
+2px -5px 6px rgb(255, 153, 0),
+-3px -7px 8px rgb(255, 102, 0),
+1px -15px 30px rgb(255, 51, 0),
+3px -30px 55px rgb(255, 0, 0);
+}
+.game_container{width: 100%; position: relative;height: 0;padding-bottom: 90%}
+.game_container iframe, .game_container embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%}
+.game-full-mode iframe, .game-full-mode embed {max-height: 70%;}
+.game-full-mode #game_code {margin-top: 50px;}
+
+.x {
+
+        float : right;font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+  font-size : 17px;
+  color : #111;
+
+  background-color : #e63131;
+  margin-top : -11px;
+
+        padding : 3px;
+
+}
+
+.data {
+      font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+  	  font-size : 10px;
+  	  color : #111;
+  	  border : 2px solid #ccc;
+  	  background-color : #ddd;
+   	  margin-top : 10px;
+            float : center; /*Плавающий блок, сдвигающийся влево*/
+            padding : 10px;
+            opacity: 0.7;
+
+}
+.rec {
+      width : 630px;
+      height: 150px;
+
+
+            opacity: 0.9;
+
+}
+.commit {
+      width : 500px;
+      height: 150px;
+
+      background-color : #ddd;
+
+            opacity: 0.8;
+
+}
+.rating {
+      width : 500px;
+      height: 150px;
+
+      background-color : #ddd;
+
+            opacity: 0.8;
+
+}
+
+.games {
+      width : 630px;
+      height: 450px;
+  	  border : 1px solid #ccc;
+  	  background-color : #ddd;
+   	  margin-top : 10px;
+            float : center; /*Плавающий блок, сдвигающийся влево*/
+            padding : 10px;
+            opacity: 0.9;
+
+}
+
+.frame{ /*Основная область страницы*/
+  background-image: url('../im/base/reka.jpeg');
+  background-size: cover;
+	  background-color : #82b2c4;
+          border-left : 10px solid #eee;
+          border-right : 10px solid #eee;
+          height: 1500px;
+          min-height: 100%; /*Растягиваем элемент на всю высоту*/
+          margin : auto; /*Выравнивание по ширине*/
+          width : 1094px; /*Ширина основной области*/
+
+  }
+
+.header{/*верхняя часть (header)*/
+
+
+    border : 10px solid #fbf2f2;
+          border-bottom : none;
+          background-image: url('');
+          /*background-color : #d41313;*/
+          height: 150px;
+
+
+}
+.login{/*Форма оегистрации*/
+
+
+  border : 0px;
+  margin : 0px;
+        float : right; /*Плавающий блок, сдвигающийся справо*/
+        width : 290px;
+        height: 200px ;
+        position:relative;
+         z-index:200;
+}
+        .login_text{/*Форма оегистрации*/
+
+          font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+          font-size : 10px;
+          color : #111;
+          border : 2px solid #ccc;
+          background-color : #ddd;
+          margin-top : 10px;
+                float : center; /*Плавающий блок, сдвигающийся влево*/
+                padding : 10px;
+                opacity: 0.8;
+
+}
+.title {/*Стиль для оформления текста заголовка*/
+	  font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+    background-color : #453f3f;
+    /*border : 10px solid #e3e716;*/
+    padding: 5px;
+    width : 480px;
+    font-size: 32px;
+    color : #fbfbfb;
+          text-align : center;
+          margin:15px auto;
+          opacity: 0.7;
+}
+
+/*выпадающее меню*/
+.main_menu { /*Основной список пунктов горизонтального меню*/
+ 	  list-style : none;
+	  padding : 0px;
+	  font-family :  Arial, Sans-Serif, "trebuchet ms", Verdana, Tahoma;
+	  font-size : 18px;
+	  color : #111;
+      margin:5px auto;
+      opacity: 0.8;
+      position:absolute;
+       z-index:100;
+
+}
+
+.main_menu > li { /*Пункт меню самого верхнего уровня*/
+          display : inline;
+	  position : relative;
+          padding : 5px;
+          border-left : 1px solid #ddd;
+	  background-color : #fff;
+          cursor : pointer;
+}
+
+.main_menu > li:hover { /*Стиль пункта меню самого верхнего уровня в тот момент, когда курсор мыши находится над ним*/
+	  background-color : #777;
+	  color : #fff;
+ }
+
+.main_menu > li > ul { /*Стиль подменю 1-го уровня*/
+	  display : none;
+	  position : absolute;
+	  left : 0px; top : 24px;
+          z-index : 1;
+          padding : 0px;
+          border : 0px;
+          width : 150px;
+}
+
+.main_menu ul > li > ul { /*Стиль подменю 2-го и более уровня*/
+	  display : none;
+	  position : absolute;
+	  left : 149px; top : 0px;
+          z-index : 1;
+          padding : 0px;
+          border : 0px;
+          width : 150px;
+}
+
+.main_menu ul > li { /*Стиль пункта подменю*/
+          display : block;
+	  position : relative;
+          padding : 5px;
+          border : none;
+          border-bottom : 1px solid #ddd;
+	  background-color : #eee;
+}
+
+.main_menu ul > li:hover { /*Стиль пункта подменю в тот момент, когда курсор мыши находится над ним*/
+	  background-color : #aaa;
+	  color : #fff;
+}
+
+.main_menu li > a { /*Отдельный стиль для гиперссылок пунктов меню*/
+	  text-decoration: none;
+   	  color: #777;
+	}
+
+.main_menu li:hover > a { /*Отдельный стиль для гиперссылок пунктов меню в тот момент, когда курсор мыши находится над ними*/
+	  color : #fff;
+ }
+
+.main_menu li:hover > ul { /*Показ подменю*/
+          display: block;
+ }
+
+.menu-v { /*Основной список пунктов вертикального меню*/
+    height :90px;
+    width : 90px;
+    margin : 0px;
+	  padding : 0px;
+	  font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+	  font-size : 12px;
+	  color : #111;
+    opacity: 09;
+}
+.my_icon { /*Основной список пунктов вертикального меню*/
+    height :90px;
+    width : 188px;
+    margin : 0px;
+	  padding : 0px;
+	  font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+	  font-size : 12px;
+	  color : #111;
+    opacity: 0.9;
+}
+
+/*Строчное меню*/
+.main-menu {/*Стиль div главного меню (main-menu)*/
+          font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+          font-size : 20px;
+          font-weight : bold;
+	  border : 0px;
+	  background-color : #ccc;
+	  height : 30px;
+}
+.main-menu-item {/*Стиль div пункта главного меню (main-menu-item)*/
+	  background-color : #ccc;
+          padding : 1px;
+          margin-right : 1px;
+	  height : 18px;
+	  float: left;
+}
+.main-menu a {/*Стиль для оформления гиперссылок главного меню*/
+	color : #fff;
+	text-decoration : none;
+}
+
+.main-menu a:hover {/*Стиль для оформления текущей гиперссылки главного меню*/
+	color : #333;
+	text-decoration : underline;
+}
+
+/**/
+.main{/*Стиль div основной области (main)*/
+	  border : 0px;
+          clear : both;
+}
+.main-side-left{/*Стиль div левой части основной области*/
+          border : 5px;
+ 	  margin : 0px;
+          float : left; /*Плавающий блок, сдвигающийся влево*/
+          width : 200px;
+          height: 290px ;
+}
+.main-side-right{/*Стиль div правой части основной области*/
+	  border : 0px;
+ 	  margin : 0px;
+          float : right; /*Плавающий блок, сдвигающийся справо*/
+          width : 200px;
+          height: 290px ;
+
+}
+.main-center{/*Стиль div центральной части основной области*/
+	  border : 0px;
+ 	  margin-left  : 210px; /*Отступ от плавающего блока слева*/
+ 	  margin-right : 210px; /*Отступ от плавающего блока справа меньше, поскольку информационные блоки внутри main-side-center имеют свой отступ справа*/
+          clear : none; /*Не размещать элемент ниже плавающих блоков*/
+          height: 290px ;
+}
+.footer-proxy { /*Заглушка для нижней части, резервирующая элементу footer место*/
+	  height: 100px; /*должна быть равна высоте элемента footer*/
+          clear : both; /*Блок ниже всех плавающих блоков*/
+}
+.footer { /*нижняя часть (footer)*/
+	  border : 1px solid #ccc;
+          background: #ddd;
+          height: 100px;
+          margin-top: -100px; /*Перемещаем нижнюю часть поверх заглушки footer-proxy*/
+          clear : both; /*Блок ниже всех плавающих блоков*/
+}
+.copyright {/*Стиль для вывода информации об авторском праве*/
+	  font-family : "trebuchet ms", Verdana, Tahoma, Arial, Sans-Serif;
+	  font-size : 11px;
+	  color : #111;
+          text-align : center;
+}
