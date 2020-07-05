@@ -89,8 +89,11 @@ if ( isset($data['do_signup']) )
 }
 
 if (!isset($user)): ?>
+
 <form class = "login_text" method="POST">
+
 	<button type="submit" class="x">×</button>
+
 	<strong>Ваш логин</strong>
 	<input type="text" name="login" value="<?php echo @$data['login']; ?>"><br/>
 
